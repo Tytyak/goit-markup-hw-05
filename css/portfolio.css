@@ -283,11 +283,13 @@ img{
     height: 100%;
     width: 100%;
     padding: 63px 24px;
-    background-color: var(--blue);
     transform: translateY(100%);
     transition: transform var(--time) var(--time-function);
-    opacity: 0.9;
+    background-image: linear-gradient( to right, var(--bacground-card), var(--bacground-card));
     
+    /* или вместо background-image   */
+    /* opacity: 0.9; */
+    /* background-color: var(--blue); */
 }
 
 .card:hover .overlay{
