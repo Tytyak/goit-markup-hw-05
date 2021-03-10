@@ -282,7 +282,7 @@ img{
     left: 0px;
     height: 100%;
     width: 100%;
-    
+    padding: 63px 24px;
     background-color: var(--blue);
     transform: translateY(100%);
     transition: transform var(--time) var(--time-function);
@@ -301,12 +301,11 @@ img{
 }
 
 .tehno{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.555;
     color: var(--white);
-    padding: 63px 24px 63px 24px;
 }
 
      /* FOOTER */
