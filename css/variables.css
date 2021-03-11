@@ -13,6 +13,7 @@
     --background-modal: rgba(0, 0, 0, 0.2);
     --modal-btn: rgba(0, 0, 0, 0.1);
     --bacground-card: rgba(33,150,243,0.9);
+    --overlay: rgba(47,48,58,0.8);
     --time-function: cubic-bezier(0.4, 0, 0.2, 1);
     --time: 250ms;
 }
